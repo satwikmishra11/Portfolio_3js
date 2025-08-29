@@ -1,10 +1,10 @@
 import { useEffect } from "react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import HoverLinks from "./HoverLinks";
 import "./styles/Navbar.css";
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollToPlugin);
 
 const Navbar = () => {
   useEffect(() => {
@@ -18,7 +18,8 @@ const Navbar = () => {
           let section = elem.getAttribute("data-href");
           gsap.to(window, {
             duration: 1,
-            scrollTo: { y: section, offsetY: 70 },
+            scrollTo: section,
+            ease: "power2.inOut",
           });
         }
       });
