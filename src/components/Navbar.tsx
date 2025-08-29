@@ -1,7 +1,7 @@
 import { useEffect } from "react";
+import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-import HoverLinks from "./HoverLinks";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollToPlugin);
@@ -16,11 +16,12 @@ const Navbar = () => {
           e.preventDefault();
           let elem = e.currentTarget as HTMLAnchorElement;
           let section = elem.getAttribute("data-href");
-          gsap.to(window, {
-            duration: 1,
-            scrollTo: section,
-            ease: "power2.inOut",
-          });
+          if (section) { // Check if the section is not null
+            gsap.to(window, {
+              duration: 1,
+              scrollTo: section,
+            });
+          }
         }
       });
     });
