@@ -1,11 +1,8 @@
 import gsap from "gsap";
-// removed SplitText (paid plugin)
-// removed smoother (from Navbar)
 
 export function initialFX() {
   document.body.style.overflowY = "auto";
 
-  // mark main active
   document.getElementsByTagName("main")[0].classList.add("main-active");
 
   // background fade-in
