@@ -1,38 +1,39 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ScrollSmoother } from "gsap/ScrollSmoother";
-import { SplitText } from "gsap/SplitText";
+
+gsap.registerPlugin(ScrollTrigger);
 
 interface ParaElement extends HTMLElement {
   anim?: gsap.core.Animation;
-  split?: SplitText;
 }
-
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 export default function setSplitText() {
   ScrollTrigger.config({ ignoreMobileResize: true });
   if (window.innerWidth < 900) return;
+
   const paras: NodeListOf<ParaElement> = document.querySelectorAll(".para");
   const titles: NodeListOf<ParaElement> = document.querySelectorAll(".title");
 
   const TriggerStart = window.innerWidth <= 1024 ? "top 60%" : "20% 60%";
   const ToggleAction = "play pause resume reverse";
 
+  // Handle paragraphs
   paras.forEach((para: ParaElement) => {
     para.classList.add("visible");
     if (para.anim) {
       para.anim.progress(1).kill();
-      para.split?.revert();
     }
 
-    para.split = new SplitText(para, {
-      type: "lines,words",
-      linesClass: "split-line",
-    });
+    // Manually split text into words
+    const words = (para.textContent || "").trim().split(/\s+/);
+    para.innerHTML = words
+      .map((word) => `<span class="split-word">${word}</span>`)
+      .join(" ");
+
+    const wordSpans = para.querySelectorAll(".split-word");
 
     para.anim = gsap.fromTo(
-      para.split.words,
+      wordSpans,
       { autoAlpha: 0, y: 80 },
       {
         autoAlpha: 1,
@@ -48,17 +49,23 @@ export default function setSplitText() {
       }
     );
   });
+
+  // Handle titles
   titles.forEach((title: ParaElement) => {
     if (title.anim) {
       title.anim.progress(1).kill();
-      title.split?.revert();
     }
-    title.split = new SplitText(title, {
-      type: "chars,lines",
-      linesClass: "split-line",
-    });
+
+    // Manually split text into characters
+    const chars = (title.textContent || "").split("");
+    title.innerHTML = chars
+      .map((ch) => `<span class="split-char">${ch}</span>`)
+      .join("");
+
+    const charSpans = title.querySelectorAll(".split-char");
+
     title.anim = gsap.fromTo(
-      title.split.chars,
+      charSpans,
       { autoAlpha: 0, y: 80, rotate: 10 },
       {
         autoAlpha: 1,
@@ -76,5 +83,6 @@ export default function setSplitText() {
     );
   });
 
+  // Refresh handling
   ScrollTrigger.addEventListener("refresh", () => setSplitText());
 }
