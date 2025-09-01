@@ -6,9 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am a full stack developer with expertise in machine learning and
-          holding B.tech in cse , I've  held projects like Zenith OS and
-          Sahsarthi flutter.
+          I am a passionate AI engineer and full-stack developer with expertise
+          in building scalable web applications and AI-powered solutions.
+          Skilled in Python, C++, JavaScript, and machine learning, I have developed 
+          projects ranging from social platforms to assistive technologies. 
+          My focus is on creating impact-driven, innovative systems that enhance accessibility and user experience.
+          Always eager to learn, I thrive on solving real-world problems through technology and creativity.
         </p>
       </div>
     </div>
