@@ -15,15 +15,15 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>PRODUCT MANAGER</h4>
+                <h5>XEBIA</h5>
               </div>
               <h3>2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Leading the planning and execution of a student-focused platform under mentorship, aimed at creating a unified digital
+              ecosystem for academic and administrative management.Overseeing design, tech stack selection, and development cycles 
+              to ensure product aligns with educational goals.
             </p>
           </div>
           <div className="career-info-box">
