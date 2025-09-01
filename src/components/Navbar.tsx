@@ -70,7 +70,7 @@ const Navbar = () => {
         </a>
         <ul>
           <li>
-            <a data-href="./about" href="./about">
+            <a data-href="/src/components/utils/about.tsx" href="./about">
               <HoverLinks text="ABOUT" />
             </a>
           </li>
