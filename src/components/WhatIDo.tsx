@@ -92,8 +92,7 @@ const WhatIDo = () => {
               <p>
                 I specialize in building full-stack applications and intelligent
                 systems that integrate modern web technologies with machine
-                learning. From scalable APIs to AI-powered solutions, I focus on
-                delivering optimized, secure, and impactful applications.
+                learning. From scalable APIs to AI-powered solutions.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -139,8 +138,7 @@ const WhatIDo = () => {
               <p>
                 I design system architectures and user-centric interfaces that
                 combine functionality with accessibility. My approach ensures
-                seamless integration of AI features, scalability, and intuitive
-                user experiences across platforms.
+                seamless integration of AI features, scalability.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
