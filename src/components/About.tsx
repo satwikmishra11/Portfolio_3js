@@ -6,11 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am a passionate AI engineer and full-stack developer with expertise
-          in building scalable web applications and AI-powered solutions.
-          Skilled in Python, C++, JavaScript, and machine learning.
-          My focus is on creating impact-driven, innovative systems that enhance accessibility and user experience.
-          Always eager to learn, I thrive on solving real-world problems through technology and creativity.
+          I am a results-oriented full-stack software developer with 2 years of industry internship experience
+          across fintech (DeFi/digital assets), edtech, and distributed systems, currently contributing to 
+          institutional-grade trading infrastructure at GoQuant Inc. (Miami, USA). 
+          I have a strong expertise in backend systems, real-time data pipelines, and AI integration. 
+          As an active competitive programmer with a LeetCode rating of 1700+ and over 830+ problems solved, 
+          I thrive on building scalable, ultra-low latency, and high-impact products.
         </p>
       </div>
     </div>

@@ -15,42 +15,40 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>PRODUCT MANAGER</h4>
+                <h4>B.TECH (CSE)</h4>
+                <h5>K.R. MANGALAM UNIVERSITY</h5>
+              </div>
+              <h3>2022 - 2026</h3>
+            </div>
+            <p>
+              Bachelor of Technology in Computer Science and Engineering with a CGPA of 8.67 / 10.0.
+              Focused on core computer science subjects, systems, competitive programming, and full-stack development.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>SOFTWARE DEVELOPER INTERN</h4>
                 <h5>XEBIA</h5>
               </div>
               <h3>2025</h3>
             </div>
             <p>
-              Leading the planning and execution of a student-focused platform under mentorship, aimed at creating a unified digital
-              ecosystem for academic and administrative management.Overseeing design, tech stack selection, and development cycles 
-              to ensure product aligns with educational goals.
+              Led the planning and delivery of a student-focused academic management platform under senior engineering mentorship.
+              Coordinated cross-functional teams on technology selection and UI/UX design, and oversaw the end-to-end development lifecycle.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Software Development Intern</h4>
-                <h5>GoQuant</h5>
+                <h4>SOFTWARE DEVELOPER INTERN</h4>
+                <h5>GOQUANT INC.</h5>
               </div>
-              <h3>2025</h3>
+              <h3>2025 - 2026</h3>
             </div>
             <p>
-              As a Software Developer In GoQuant I developed Reg-NMS
-              cryptocurrenncy matching engine.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
-              </div>
-              <h3>NOW</h3>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Contributing to backend systems for institutional DeFi & digital assets trading infrastructure, building real-time market data pipelines,
+              smart order routing, smart order execution, and lifecycle management tooling (settlement, clearing, PMS/RMS integration).
             </p>
           </div>
         </div>

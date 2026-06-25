@@ -10,14 +10,14 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:satwikmishra46@mail.com" data-cursor="disable">
+              <a href="mailto:satwikmishra46@gmail.com" data-cursor="disable">
                 satwikmishra46@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
               <a href="tel:+917068116082" data-cursor="disable">
-                +91 7068116082
+                +91 706 811 6082
               </a>
             </p>
           </div>
@@ -26,22 +26,25 @@ const Contact = () => {
             <a
               href="https://github.com/satwikmishra11"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/satwik-mishra-56661025a/"
+              href="https://www.linkedin.com/in/satwikmishra1"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href="https://x.com/satwikM77"
+              href="https://x.com/SatwikM77"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >
@@ -50,6 +53,7 @@ const Contact = () => {
             <a
               href="https://www.instagram.com/satwikmishra.77"
               target="_blank"
+              rel="noopener noreferrer"
               data-cursor="disable"
               className="contact-social"
             >

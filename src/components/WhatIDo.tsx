@@ -97,19 +97,23 @@ const WhatIDo = () => {
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Python</div>
-                <div className="what-tags">C++</div>
                 <div className="what-tags">JavaScript</div>
+                <div className="what-tags">C++</div>
+                <div className="what-tags">Go</div>
+                <div className="what-tags">Rust</div>
+                <div className="what-tags">SQL</div>
                 <div className="what-tags">React</div>
-                <div className="what-tags">Next.js</div>
+                <div className="what-tags">Next.js 14</div>
+                <div className="what-tags">React Native</div>
                 <div className="what-tags">Flask</div>
+                <div className="what-tags">FastAPI</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Express.js</div>
+                <div className="what-tags">PostgreSQL</div>
                 <div className="what-tags">MongoDB</div>
-                <div className="what-tags">MySQL</div>
                 <div className="what-tags">Redis</div>
-                <div className="what-tags">TensorFlow</div>
-                <div className="what-tags">PyTorch</div>
-                <div className="what-tags">AI/ML</div>
+                <div className="what-tags">Firebase</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">RabbitMQ/Kafka</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -143,15 +147,16 @@ const WhatIDo = () => {
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">System Architecture</div>
+                <div className="what-tags">API Design</div>
                 <div className="what-tags">UI/UX</div>
                 <div className="what-tags">Figma</div>
-                <div className="what-tags">Wireframing</div>
-                <div className="what-tags">Prototyping</div>
-                <div className="what-tags">Accessibility Design</div>
-                <div className="what-tags">Data Modeling</div>
-                <div className="what-tags">API Design</div>
-                <div className="what-tags">Cloud Integration</div>
-                <div className="what-tags">Scalable Systems</div>
+                <div className="what-tags">AWS</div>
+                <div className="what-tags">GCP</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Vercel</div>
+                <div className="what-tags">Expo EAS</div>
+                <div className="what-tags">Git & GitHub</div>
+                <div className="what-tags">Linux</div>
               </div>
               <div className="what-arrow"></div>
             </div>

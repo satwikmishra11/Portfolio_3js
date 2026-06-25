@@ -62,25 +62,25 @@ const Navbar = () => {
           S.M.
         </a>
         <a
-          href="mailto:satwikmishra46@mail.com"
+          href="mailto:satwikmishra46@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          satwikmishra46@mail.com
+          satwikmishra46@gmail.com
         </a>
         <ul>
           <li>
-            <a data-href="/src/components/utils/about.tsx" href="./about">
+            <a data-href="#about" href="#about">
               <HoverLinks text="ABOUT" />
             </a>
           </li>
           <li>
-            <a data-href="./work" href="./work">
+            <a data-href="#work" href="#work">
               <HoverLinks text="WORK" />
             </a>
           </li>
           <li>
-            <a data-href="./contact" href="./contact">
+            <a data-href="#contact" href="#contact">
               <HoverLinks text="CONTACT" />
             </a>
           </li>
